@@ -13,7 +13,7 @@
             let mychart=this.$echarts.init(document.getElementById('Demo8'));
             mychart.setOption({
               title:{
-                text:'xx',
+                text:'line',
                 textStyle:{
                   color:"#00A8F9"
                 }
