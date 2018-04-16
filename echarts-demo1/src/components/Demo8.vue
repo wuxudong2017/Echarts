@@ -13,11 +13,12 @@
             let mychart=this.$echarts.init(document.getElementById('Demo8'));
             mychart.setOption({
               title:{
-                text:'折线图',
+                text:'xx',
                 textStyle:{
                   color:"#00A8F9"
                 }
-              }
+              },
+
             })
 
           }
