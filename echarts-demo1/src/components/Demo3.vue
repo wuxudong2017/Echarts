@@ -1,13 +1,8 @@
 <template>
-    <div class="header">
-      <div id="myChart" :style="{width:'500px',height:'500px'}">
+
+      <div id="demo3" :style="{width:'500px',height:'500px'}">
 
       </div>
-
-
-
-
-    </div>
 </template>
 
 <script>
@@ -27,7 +22,7 @@
       methods: {
         drawLine(){
           // 基于准备好的dom，初始化echarts实例
-          let myChart = this.$echarts.init(document.getElementById('myChart'));
+          let myChart = this.$echarts.init(document.getElementById('demo3'));
           var val=100;
           // 绘制图表
           myChart.setOption({
@@ -97,7 +92,11 @@
                 barGap:'-100%',
                 barCategoryGap:'40%',
                 data: this.database,
-                animation: false
+                animation: false,
+                itemStyle: {
+                  color:"#135D8C"
+                }
+
               },
 
               {

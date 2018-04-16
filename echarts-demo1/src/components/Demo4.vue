@@ -1,5 +1,5 @@
 <template>
-  <div id="map" :style="{width:'600px',height:'600px'}"></div>
+  <div id="demo4" :style="{width:'600px',height:'600px'}"></div>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ import china from '../map/js/china'
       },
       methods:{
           drop2(){
-            let mychart=this.$echarts.init(document.getElementById('map'));
+            let mychart=this.$echarts.init(document.getElementById('demo4'));
             mychart.setOption({
               title:{
                 text:'map',

@@ -1,5 +1,15 @@
 <template>
   <div id="app">
+    <!--圆规图-->
+    <Demo1></Demo1>
+    <!--柱状图-->
+    <Demo2></Demo2>
+    <Demo3></Demo3>
+    <Demo4></Demo4>
+    <Demo6></Demo6>
+    <!--中国地图-->
+    <Demo5></Demo5>
+    <Demo7></Demo7>
     <!--折线图-->
     <Demo8></Demo8>
     <Demo9></Demo9>
